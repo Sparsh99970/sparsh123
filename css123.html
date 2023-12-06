@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Categories</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(background\ exp1.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+
+    header {
+      padding: 10px;
+      text-align: center;
+    }
+
+    h1{
+        color:#fff;
+        position: relative;
+        bottom: 8%;
+        flex-basis: 50%;
+        font-size: 80px;
+        line-height: 90px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        color: transparent;
+        -webkit-text-stroke: 1.5px #fff;
+        background: url(back.png);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: back 20s linear infinite;
+    }
+
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .category {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin: 10px;
+      overflow: hidden;
+      width: 300px;
+      transition: transform 0.2s ease-in-out;
+    }
+    
+
+    .category img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .category-content {
+      padding: 20px;
+    }
+
+    h2 {
+      margin-top:0px;
+    }
+
+    /* Hover effect */
+    .category:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 >Music Categories</h1>
+  </header>
+
+  <main>
+    <div class="category">
+      <img src="Discover_new_music_.jpg" alt="Discovery">
+      <div class="category-content">
+        <h2>Discovery</h2>
+        <p>Explore new and exciting music discoveries.</p>
+      </div>
+    </div>
+
+    <div class="category">
+      <img src="podcast.jpg" alt="Podcast">
+      <div class="category-content">
+        <h2>Podcast</h2>
+        <p>Listen to your favorite podcasts on the go.</p>
+      </div>
+    </div>
+
+    <div class="category">
+      <img src="pop.jpg" alt="Pop">
+      <div class="category-content">
+        <h2>Pop</h2>
+        <p>Enjoy the latest pop hits and chart-toppers.</p>
+      </div>
+    </div>
+
+    <div class="category">
+      <img src="indiemusic.jpg" alt="Indie">
+      <div class="category-content">
+        <h2>Indie</h2>
+        <p>Discover independent and alternative music.</p>
+      </div>
+    </div>
+
+    <div class="category">
+      <img src="trending.jpeg" alt="Trending">
+      <div class="category-content">
+        <h2>Trending</h2>
+        <p>Stay updated with the latest trending tracks.</p>
+      </div>
+    </div>
+
+    <div class="category">
+      <img src="ssjj.png" alt="Decades">
+      <div class="category-content">
+        <h2>Decades</h2>
+        <p>Explore music from different decades.</p>
+      </div>
+    </div>
+
+    <div class="category">
+      <img src="Screenshot 2023-11-16 191813.png" alt="Devotional">
+      <div class="category-content">
+        <h2>Devotional</h2>
+        <p>Find peace and inspiration with devotional music.</p>
+      </div>
+    </div>
+
+    <div class="category">
+      <img src="focus.jpg" alt="Focus">
+      <div class="category-content">
+        <h2>Focus</h2>
+        <p>Concentrate and boost productivity with focus music.</p>
+      </div>
+    </div>
+
+    <div class="category">
+      <img src="kids.webp" alt="Focus">
+      <div class="category-content">
+        <h2>Kids & Family</h2>
+        <p>These helps the body and the mind work together </p>
+      </div>
+    </div>
+
+    <div class="category" >
+      <img src="chill.jpg" alt="Focus">
+      <div class="category-content">
+        <h2>Chill</h2>
+        <p>Chill beats, lofi vibes, new track every week</p>
+      </div>
+    </div>
+
+    <div class="category">
+      <img src="workout.jpg" alt="Focus">
+      <div class="category-content">
+        <h2>Workout</h2>
+        <p>Workout with these beast and inspirational songs</p>
+      </div>
+    </div>
+
+    <div class="category">
+      <img src="travel.jpg" alt="Focus">
+      <div class="category-content">
+        <h2>Travel</h2>
+        <p>Top traveling songs to make your trip more enjoyable</p>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
